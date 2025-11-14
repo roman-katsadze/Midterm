@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_white"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="32dp">
+
+
+            <EditText
+                android:id="@+id/etSearch"
+                android:layout_width="266dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:background="@drawable/search_background"
+                android:gravity="start|center_vertical"
+                android:drawableStart="@drawable/search_icon"
+                android:drawablePadding="8dp"
+                android:hint="Search products..."
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+
+            <ImageView
+                android:id="@+id/ivCart"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/shopping_cart1"
+                android:layout_marginStart="16dp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/ivProductImage"
+            android:layout_width="292dp"
+            android:layout_height="176dp"
+            android:src="@drawable/oil_1"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/background_gray"
+            android:layout_marginBottom="32dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tvOfficialStore"
+                android:layout_width="102dp"
+                android:layout_height="27dp"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/official_store"
+                android:drawablePadding="4dp" />
+
+            <TextView
+                android:id="@+id/tvFreeDelivery"
+                android:layout_width="105dp"
+                android:layout_height="27dp"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/free_delivery"
+                android:drawablePadding="4dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:lineSpacingExtra="4sp"
+            android:text="Discusses the factors that make a logo successful by analyzing the research, brainstorming, sketching, and stylistic experiments that led to its development."
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/tvCurrentPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="120$"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginEnd="16dp" />
+
+            <TextView
+                android:id="@+id/tvOldPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="149$"
+                android:textSize="13sp"
+                android:textColor="@color/text_hint"
+                android:textStyle="normal"
+                android:paintFlags="strikeThruText" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnOffers"
+            android:layout_width="327dp"
+            android:layout_height="wrap_content"
+            android:text="Offers"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="#FFBE5B"
+            android:paddingVertical="12dp"
+            android:layout_marginBottom="16dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="32dp"
+            android:paddingStart="16dp">
+
+            <TextView
+                android:id="@+id/tvFeature1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Various Installment Options"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_secondary"
+                android:drawableStart="@drawable/check"
+                android:drawablePadding="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvFeature2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monthly Installment"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_secondary"
+                android:drawableStart="@drawable/check"
+                android:drawablePadding="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvFeature3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jumia Birthday"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_secondary"
+                android:drawableStart="@drawable/check"
+                android:drawablePadding="8dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="32dp">
+
+
+            <Button
+                android:id="@+id/btnAddToCart"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFF9900"
+                android:elevation="4dp"
+                android:text="Add To Cart"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="16dp">
+
+                <ImageButton
+                    android:id="@+id/btnCall"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:src="@drawable/call_icon"
+                    android:background="@drawable/circle_background" />
+
+                <ImageButton
+                    android:id="@+id/btnHome"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:src="@drawable/home_icon"
+                    android:background="@drawable/circle_background"
+                    android:layout_marginStart="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

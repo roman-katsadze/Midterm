@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/center_phone"
+        android:layout_width="37.41dp"
+        android:layout_height="37.41dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/success_tick" />
+
+
+    <Button
+        android:id="@+id/done_button"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/center_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle"
+        android:text="DONE"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:backgroundTint="#FF9900"/>
+
+
+    <TextView
+        android:id="@+id/success_text"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/done_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Payment Successful!"
+        android:textColor="#FFFF9900"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/gift1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/gift1" />
+
+    <ImageView
+        android:id="@+id/gift2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/gift1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/gift2"/>
+
+
+    <ImageView
+        android:id="@+id/bag"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/bag" />
+
+    <ImageView
+        android:id="@+id/cart2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/bag"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/cart2"/>
+
+
+    <ImageView
+        android:id="@+id/person"
+        android:layout_width="117.06dp"
+        android:layout_height="200.54dp"
+        android:layout_toLeftOf="@id/center_phone"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/person" />
+
+</RelativeLayout>

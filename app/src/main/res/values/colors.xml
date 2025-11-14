@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_primary">#FF2196F3</color>
+    <color name="blue_primary_dark">#FF1976D2</color>
+    <color name="orange_primary">#FF9900</color>
+    <color name="orange_primary_dark">#CC7A00</color>
+    <color name = "orange_light">#FFBE5B</color>
+    <color name="text_primary">#FF000000</color>
+    <color name="Red">#FF0000</color>
+    <color name="text_secondary">#FF666666</color>
+    <color name="text_hint">#FF999999</color>
+    <color name="background_white">#FFFFFFFF</color>
+    <color name="background_gray">#FFF8F9FA</color>
+    <color name="background_light">#FFF5F5F5</color>
+    <color name="background_light_gray">#FFF0F0F0</color>
+    <color name="divider_color">#FFE0E0E0</color>
+</resources>
